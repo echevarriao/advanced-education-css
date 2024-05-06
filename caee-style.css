@@ -1,0 +1,129 @@
+/* CSS for advancededucation.engineering.uconn.edu */
+
+@media screen and (max-width: 768px) {
+.arrow-boxes {
+display:none!important
+}
+}
+
+.ms_content_wrap {
+background:rgba(0,42,142,0.8)
+}
+
+#layer_content_665606118 p {
+font-size:40px
+}
+
+/* white links for footer or any where with dark background */
+div.white-urls p a,div.white-urls p strong a {
+color:#fff!important
+}
+
+div.white-urls a:hover,div.white-urls p strong a:hover {
+color:#e8e8e8!important
+}
+
+/* for internal page anchors */
+html {
+scroll-behavior:smooth
+}
+
+/* p span widget title */
+p > span.widget-title {
+font-weight:700;
+font-size:25px!important
+}
+
+/* highlight paragraphs */
+.h3-highlight p span.widget-title a {
+text-decoration:none
+}
+
+.h3-highlight p span.widget-title a:hover {
+text-decoration:underline
+}
+
+.h3-highlight p span.widget-title::after,.h3-highlight p span.widget-title::after {
+content:"";
+width:45px;
+height:5px;
+display:block;
+background-color:navy;
+position:relative;
+top:5px;
+margin-top:2px
+}
+
+.h3-highlight p span.widget-title::after,.h3-highlight p span.widget-title::after {
+transition:.25s;
+background-color:navy;
+width:100px
+}
+
+/* front page H3 headers */
+div.smaller-h3 h3 {
+font-size:20px
+}
+
+/* sidebar code */
+#page-sidebar .widget {
+border-radius:0;
+border:0;
+background-color:#fff
+}
+
+/* H3 level highlights */
+.h3-highlight div h2.widget-title {
+font-size:30px!important;
+text-transform:capitalize
+}
+
+.h3-highlight h3 a {
+text-decoration:none
+}
+
+.h3-highlight h3 a:hover {
+text-decoration:underline
+}
+
+.h3-highlight h3.h3::after,.h3-highlight h3::after {
+content:"";
+width:45px;
+height:5px;
+display:block;
+background-color:navy;
+position:relative;
+top:5px;
+margin-top:2px
+}
+
+.h3-highlight h3.h3:hover::after,.h3-highlight h3:hover::after {
+transition:.25s;
+background-color:navy;
+width:100px
+}
+
+#footers #footer ul li a {
+color:#111;
+padding:0
+}
+
+#footers {
+background-color:#000e2f
+}
+
+#footers #footer {
+color:#fff
+}
+
+#footers #footer ul li a,#uc-footer-links > li > a,uc-footer-links > li,#meta-footer {
+padding:5px;
+color:#fff!important
+}
+
+#footers #footer ul li a:hover,#uc-footer-links > li > a:hover,uc-footer-links > li {
+transition:.25s;
+border-radius:5px;
+background-color:#fff;
+color:#000!important
+}
